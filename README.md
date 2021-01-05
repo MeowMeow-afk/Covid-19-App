@@ -6,7 +6,7 @@ Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 ### What this app shows
 + Show data worldwide 
 + Show data Country wise
-+ Show data on Daily bases and overrall
++ Show data on Daily bases and overall
 
 
 ### Dark Mode

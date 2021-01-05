@@ -1,6 +1,7 @@
 # Covid-19-App
 
 Api used - [disease.sh](https://disease.sh/)
+Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 
 ### What this app shows
 + Show data worldwide 
@@ -10,6 +11,8 @@ Api used - [disease.sh](https://disease.sh/)
 
 ### Dark Mode
 + Dark mode is also available and is done through **react context api** (a state management tool)
+
+
 
 ### Modules used 
 + Bootstrap 5 (via cdn) --> Bootstrap used in this project is in **alpha** phase so can be changed in future 

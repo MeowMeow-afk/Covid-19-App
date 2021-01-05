@@ -1,0 +1,127 @@
+.bg-color {
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 0.1rem 0rem lightgray;
+  width: 25rem !important;
+  transform: scale(0.9);
+}
+.space {
+  margin-left: 0.5rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.bg-color:hover .animate {
+  z-index: 100;
+  color: white;
+}
+
+.bg-darkmode {
+  color: white;
+  box-shadow: none;
+  background-color: #121212;
+}
+.animate {
+  transition: all 700ms ease-in-out;
+  position: relative;
+}
+.bg-color:hover .darkmode__animate {
+  z-index: 100;
+  color: white;
+}
+.darkmode__animate {
+  transition: all 700ms ease-in-out;
+  position: relative;
+}
+.darkmode__color {
+  color: #6d6d71;
+}
+.darkmode__color__heading {
+  color: black;
+}
+/* animation for success */
+.success__animate:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #198754;
+  transition: all 900ms ease-in-out;
+}
+.success__animate:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #198754;
+  transition: all 1000ms ease-in-out;
+}
+.bg-color:hover .success__animate:after {
+  width: 100%;
+}
+.bg-color:hover .success__animate:before {
+  width: 100%;
+}
+/* animation for danger */
+.danger__animate:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #dc3545;
+  transition: all 900ms ease-in-out;
+}
+.danger__animate:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: #dc3545;
+  transition: all 1000ms ease-in-out;
+}
+.bg-color:hover .danger__animate:after {
+  width: 100%;
+}
+.bg-color:hover .danger__animate:before {
+  width: 100%;
+}
+/* animation for dark */
+.dark__animate:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: black;
+  transition: all 900ms ease-in-out;
+}
+.dark__animate:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: -1;
+  background-color: black;
+  transition: all 1000ms ease-in-out;
+}
+.bg-color:hover .dark__animate:after {
+  width: 100%;
+}
+.bg-color:hover .dark__animate:before {
+  width: 100%;
+}

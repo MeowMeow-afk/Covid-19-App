@@ -1,0 +1,27 @@
+.graph {
+  max-height: 70rem;
+  width: 70rem;
+}
+.toggle__switch {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+.toggle__switch p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.toggle__switch p:first-child {
+  padding-right: 1.6rem;
+}
+.toggle__switch > ingput {
+  width: 2.5rem !important;
+  margin-right: -1rem;
+}
+@media (min-width: 640px) {
+  .graph {
+    width: 40rem;
+  }
+}

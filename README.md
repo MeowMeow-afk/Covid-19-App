@@ -1,6 +1,6 @@
 # Covid-19-App
 
-Api used - [disease.sh](https://disease.sh/)
+Api used - [disease.sh](https://disease.sh/) \
 Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 
 ### What this app shows

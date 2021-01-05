@@ -3,6 +3,8 @@
 Api used - [disease.sh](https://disease.sh/) \
 Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 
+![](ReadmeImg/Light.png)
+
 ### What this app shows
 + Show data worldwide 
 + Show data Country wise

@@ -3,7 +3,7 @@
 Api used - [disease.sh](https://disease.sh/) \
 Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 
-<img src="ReadmeImg/Light.png" width="500"/>
+<img src="ReadmeImg/Light.png" width="700"/>
 
 ### What this app shows
 + Show data worldwide 
@@ -12,9 +12,9 @@ Deployed App - [Link](https://covid-19-tracker-723c4.web.app/)
 
 
 ### Dark Mode
-+ Dark mode is also available and is done through **react context api** (a state management tool)
-
-<img src="ReadmeImg/Dark.png" width="500"/>
++ Dark mode is also available and is done through **react context api** (a state management tool) and can be activated by clicking on the virus.svg icon on the top left corner
+ 
+<img src="ReadmeImg/Dark.png" width="700"/>
 
 ### Modules used 
 + Bootstrap 5 (via cdn) --> Bootstrap used in this project is in **alpha** phase so can be changed in future 

@@ -7,6 +7,10 @@ Api used - [disease.sh](https://disease.sh/)
 + Show data Country wise
 + Show data on Daily bases and overrall
 
+
+### Dark Mode
++ Dark mode is also available and is done through **react context api** (a state management tool)
+
 ### Modules used 
 + Bootstrap 5 (via cdn) --> Bootstrap used in this project is in **alpha** phase so can be changed in future 
   + *Css* in head 
@@ -30,5 +34,10 @@ Api used - [disease.sh](https://disease.sh/)
      <script>
        AOS.init();
      </script>
-+ React Router Dom
++ React Router Dom --> for getting multipage functionality
   + npm i react-router-dom
++ React-Leaflet --> for the map used in the project 
+  + npm i react-leaflet
++ react-chartjs-2 --> for data visualization
+  + npm install react-chartjs-2 chart.js --> chart.js is dependency for react-chartjs-2
+  
